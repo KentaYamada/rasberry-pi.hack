@@ -1,6 +1,6 @@
 # Rasbery Pi ネットワーク設定
 - 有線ネットワーク設定  
-・設定ファイル編集  
+・設定ファイル編集
 ```
 > sudo vim /etc/network/interfaces   
 iface eth0 inet dhcp -> iface eth0 inet static
@@ -14,7 +14,7 @@ gateway <- デフォルトゲートウェイ
 または
 > sudo /etc/init.d/networking reload
 ```
-・確認方法  
+・確認方法
 ```
 > ping 設定したIPアドレス
 または
